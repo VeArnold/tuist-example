@@ -2,4 +2,4 @@ workflows:
   example-workflow:
     scripts:
       - name: Fetch dependencies
-        script: .tuist-bin/tuist fetch
+        script: tuist fetch
