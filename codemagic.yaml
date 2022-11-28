@@ -1,5 +1,7 @@
 workflows:
   example-workflow:
     scripts:
+      - name: Add Tuist
+        script: bash <(curl -Ls https://install.tuist.io)
       - name: Fetch dependencies
         script: tuist fetch
